@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🔥 1Motive Paid Sensi Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- VIP Password Screen -->
+  <div id="loginScreen">
+    <h1>VIP Access 🔒</h1>
+    <input type="password" id="vipPassword" placeholder="Enter Password"/>
+    <button onclick="checkPassword()">Enter</button>
+    <p id="errorMsg"></p>
+    <p id="successMsg"></p>
+  </div>
+
+  <!-- Video Background -->
+  <video autoplay muted loop id="bgVideo">
+    <source src="https://pixabay.com/videos/download/video-184302_medium.mp4" type="video/mp4">
+  </video>
+
+  <!-- Generator Container -->
+  <div id="generator">
+    <div class="container">
+      <h1>🔥1Motive Paid Sensi Generator 😈📲💻</h1>
+      <p>Best Sensitivity Settings for All Free Fire Players</p>
+
+      <!-- Device Selector -->
+      <label><b>Select Device Brand:</b></label><br>
+      <select id="type">
+        <option value="iphone">iPhone📲 (All Models)</option>
+        <option value="samsung">Samsung 📲(All Models)</option>
+        <option value="xiaomi">Xiaomi📲 / Redmi / Poco (All Models)</option>
+        <option value="oppo">Oppo 📲/ Realme / Vivo (All Models)</option>
+        <option value="tecno">Tecno 📲/ Infinix (All Models)</option>
+        <option value="pixel">Google Pixel📲 (All Models)</option>
+        <option value="zte">ZTE / Nubia 📲(All Models)</option>
+        <option value="tablet">iPad 📲(All Models)</option>
+        <option value="pc">PC 💻(Emulator)</option>
+      </select>
+
+      <br><br>
+
+      <!-- Playstyle Selector -->
+      <label><b>Select Play Style:</b></label><br>
+      <select id="playstyle">
+        <option value="freestyle">Freestyle Player</option>
+        <option value="onetap">One-Tap Player</option>
+        <option value="ranked">Ranked Player</option>
+        <option value="sniper">Sniper Player</option>
+        <option value="guild">Guild War Player</option>
+      </select>
+
+      <br><br>
+
+      <!-- Sensitivity Preference -->
+      <label><b>Sensitivity Preference:</b></label><br>
+      <select id="pref">
+        <option value="low">Low Sensitivity</option>
+        <option value="mid">Balanced</option>
+        <option value="high">High Sensitivity</option>
+      </select>
+
+      <br><br>
+
+      <!-- Generate Button -->
+      <button onclick="generate()">⚡ Generate Sensitivity</button>
+
+      <!-- Results -->
+      <div class="results">
+        <h3>🎯 Results:</h3>
+        <p id="extraResult"></p>
+        <p id="generalResult"></p>
+        <p id="redDotResult"></p>
+        <p id="twoXResult"></p>
+        <p id="fourXResult"></p>
+        <p id="fireResult"></p>
+      </div>
+
+      <!-- PC TWEAKS -->
+      <div id="pcSection">
+        <h3>💻 PC Tweaks:</h3>
+        <p id="pcTweaks"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <img src="https://i.postimg.cc/8CdH9HD9/1motive-pic.jpg" alt="Free Fire Logo">
+    <p>© 2026 1Motive Sensi Tool | Premium Access 🔒</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
