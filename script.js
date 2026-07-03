@@ -1,5 +1,5 @@
 // ===== CONFIG =====
-const VIP_PASSWORD = "1motiveVIP"; // Your VIP password
+const VIP_PASSWORD = "1motive"; // Your VIP password
 const BACKGROUND_IMAGE = "https://i.postimg.cc/G212fFz2/anime-8801333-1280.png"; // PNG background
 
 // ===== DOM ELEMENTS =====
